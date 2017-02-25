@@ -1,0 +1,143 @@
+
+.pvtcss-mh-banner{
+	float: left;
+	width: 100%;
+}
+.pvtcss-mh-section{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #f3efe9;
+}
+	.pvtcss-mh-section-title{
+		float: left;
+		width: 100%;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+		border-bottom: 3px solid rgba(121, 76, 69, 0.25);
+		color: #794c45;
+		font-family: 'Sniglet';
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.pvtcss-mh-introduction{
+		float: left;
+		width: 100%;
+		text-align: justify;
+	}
+	.pvtcss-mh-rps-state{
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.pvtcss-mh-rps-state:last-child{
+		margin-bottom: 0;
+	}
+		.pvtcss-mh-rps-title{
+			float: left;
+			width: 100%;
+			color: #B354A0;
+			margin-bottom: 10px;
+  			font-size: 16px;
+  			font-weight: bold;
+		}
+		.pvtcss-mh-rps-list{
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0 0 0 10px;
+		}
+			.pvtcss-mh-rp{
+				list-style: none;
+			}
+				.pvtcss-mh-rp-month{
+					display: inline-block;
+					padding: 0 5px;
+					background: #d5c7c1;
+					color: #794c45;
+					font-size: 10px;
+				}
+				.pvtcss-mh-rp-link{
+					color: #784c45;
+					text-decoration: none;
+				}
+				.pvtcss-mh-rp-guest{
+					display: inline-block;
+					padding-right: 10px;
+					color: #000000;
+					text-decoration: none;
+					position: relative;
+				}
+				.pvtcss-mh-rp-guest:after{
+					content: "★";
+					margin-left: 1px;
+					color: #B354A0;
+					position: absolute;
+					right: 0;
+					top: -4px;
+				}
+				.pvtcss-mh-rp-guest:hover{
+						color: #B354A0;
+				}
+	.pvtcss-mh-guest{
+		float: left;
+		width: 100%;
+		padding-left: 141px;
+		margin: 15px 0;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.pvtcss-mh-guest:last-child{
+		margin-bottom: 0;
+	}
+		.pvtcss-mh-guest-photo{
+			float: left;
+			width: 121px;
+			border-radius: 100px;
+			background: #e9e4dd;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.pvtcss-mh-guest-introduction{
+			float: left;
+			width: 100%;
+			padding: 10px;
+			border-radius: 10px;
+			background: #e9e4dd;
+			box-sizing: border-box;
+			text-align: justify;
+		}
+			.pvtcss-mh-guest-name{
+				float: left;
+				color: #B354A0;
+				font-size: 16px;
+				font-weight: bold;
+				margin-right: 5px;
+			}
+			.pvtcss-mh-guest-link{
+				float: left;
+				padding: 0 5px;
+				background: #d5c7c1;
+				color: #794c45;
+				font-size: 10px;
+			}
+			.pvtcss-mh-guest-text{
+				float: left;
+				width: 100%;
+				max-height: 80px;
+				padding-right: 10px;
+				margin-top: 10px;
+				box-sizing: border-box;
+				overflow: auto;
+			}
+	.pvtcss-mh-guest:nth-child(odd){
+		padding: 0 141px 0 0;
+	}
+		.pvtcss-mh-guest:nth-child(odd) .pvtcss-mh-guest-photo{
+			right: 0;
+			left: auto;
+		}
